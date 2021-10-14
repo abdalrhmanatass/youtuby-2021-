@@ -1,0 +1,26 @@
+.video-section .card:hover {
+  transform: translateY(0%);
+}
+.follow .btn {
+  color: #fff !important;
+  background-color: #bf40bf !important;
+}
+.follow {
+  bottom: 18px;
+  right: 18px;
+}
+.social-media {
+  bottom: 18px;
+  left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
+.video-section .card .card-title {
+  height: 100% !important;
+}

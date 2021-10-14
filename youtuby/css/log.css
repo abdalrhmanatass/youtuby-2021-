@@ -1,0 +1,17 @@
+.filter-history {
+  background-color: #fff;
+}
+.list-group-item.active {
+  background-color: #bf40bd;
+  border-color: #bf40bd;
+}
+.card-icon i.remove {
+  top: 4%;
+  left: 93%;
+  color: #000;
+  cursor: pointer;
+}
+.card .card-title {
+  height: 60px !important;
+  overflow: hidden;
+}

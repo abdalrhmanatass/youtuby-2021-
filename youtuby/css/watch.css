@@ -1,0 +1,61 @@
+.video-card .card {
+  transform: translateY(0%);
+}
+.watch-icons {
+  bottom: 50px;
+  position: absolute;
+  right: 20px;
+}
+.watch-icons i:hover {
+  cursor: pointer;
+}
+.card-block #more {
+  display: none;
+}
+.public-comment .form-control:focus {
+  box-shadow: none;
+}
+.card-inner {
+  display: none;
+}
+
+.fa-play {
+  right: 46% !important;
+}
+.comments {
+  margin-top: 40px;
+}
+.video-card .card-title {
+  height: 100% !important;
+}
+.public-comment .card .btn {
+  background-color: #921192;
+  border-color: #921192;
+  color: #fff;
+}
+.public-comment .card .btn:hover {
+  background-color: #b915b9;
+}
+@media (min-width: 992px) {
+  time {
+    font-size: 13px;
+  }
+  .fa-play {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 1190px) {
+  .video-card .card-block {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .text-time {
+    font-size: 13px;
+  }
+}
+@media (max-width: 425px) {
+  .comment-reply-text {
+    font-size: 13px;
+  }
+}

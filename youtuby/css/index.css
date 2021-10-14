@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "CairoFont";
+  src: url(../fonts/Cairo-Regular.ttf);
+}
+body {
+  font-family: "CairoFont", "Arial";
+  background-color: #fafafa;
+}
+button {
+  color: #bf40bf !important;
+  border-color: #bf40bf !important;
+  background-color: transparent !important;
+}
+button:hover {
+  color: #fff !important;
+  border-color: #fff !important;
+  background-color: #bf40bf !important;
+}
+a,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+time {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.822);
+  padding: 0 5px;
+}
+.container-fluid {
+  overflow: hidden !important;
+}
+/*top meun*/
+
+#top-menu .bg-light {
+  background-color: #fff !important;
+}
+#top-menu .vedio-icon {
+  background-color: #bf40bf;
+  padding: 2px;
+  border-radius: 15%;
+  color: #fff;
+}
+
+.navbar-nav li a {
+  color: #bf40bf;
+  background-color: transparent;
+}
+.navbar-nav li.active a,
+.navbar-nav li a:hover {
+  color: #fff !important;
+  background-color: #bf40bf;
+}
+#top-menu .login {
+  color: #bf40bf;
+}
+.modal .close:hover {
+  color: #bf40bf !important;
+  background-color: transparent !important;
+}
+input.form-control:focus,
+button:focus {
+  box-shadow: none !important   ;
+}
+.card-icon {
+  position: relative;
+}
+.card-icon i {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: rgba(116, 116, 116, 0.822);
+  display: none;
+}
+.card-icon time {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.card-icon:hover i {
+  display: inline;
+}
+.card:hover {
+  transform: translateY(-1%);
+  transition: transform 0.3s;
+}
+.card .card-title {
+  height: 50px;
+  overflow: hidden;
+}
+/*slidbar*/
+.saidbar-row {
+  margin-top: 72px;
+}
+.saidbar {
+  background-color: #fff;
+  position: fixed;
+  z-index: 4;
+  right: -18rem;
+  transition: all 0.5s;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+.saidbar:hover {
+  overflow-y: scroll;
+}
+.saidbar .list-group-item {
+  width: 17rem;
+}
+.saidbar ul {
+  padding: 0 !important;
+}
+.saidbar .list-group-item:hover {
+  color: #fff;
+  background-color: #bf40bf;
+}
+.saidbar .purple {
+  color: #bf40bf;
+}
+.saidbar .list-group-item:hover .purple {
+  color: #fff;
+}
+#wrop.toggled .saidbar {
+  right: 0rem;
+}
+.saidbar::-webkit-scrollbar {
+  background-color: rgba(230, 230, 230);
+  width: 8px;
+}
+.saidbar::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  width: 8px;
+}
+.layer {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: none;
+}
+.search-icon {
+  position: absolute;
+  display: none !important;
+  color: #bf40bf;
+  padding: 15px 10px;
+  cursor: pointer;
+  top: 15px;
+  left: 100px;
+}
+.search-icon:hover {
+  color: #fff;
+  background-color: #bf40bf;
+}
+.search-input {
+  position: fixed;
+  top: 72px;
+  border: none;
+  padding: 6px 23px;
+  height: 60px;
+  background-color: #c9c9c9;
+  z-index: 1;
+  display: none;
+}
+.search-input:focus {
+  background-color: #c9c9c9;
+}
+/**********************************************
+**********
+
+**********
+**********************************************/
+.card .card-horizontal .card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body {
+  min-width: 0;
+}
+/**********************************************
+**********
+media
+**********
+**********************************************/
+@media (max-width: 1044px) {
+  #navbarSupportedContent .form-inline {
+    display: none;
+  }
+  .search-icon {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  .card-icon img {
+    width: 100%;
+  }
+  .card-icon i {
+    top: 44.5%;
+    left: 47%;
+  }
+}
+@media (max-width: 410px) {
+  .channal-img {
+    display: block;
+    margin-top: 5px;
+  }
+  .channal-img .ml-3 {
+    margin-right: 0 !important;
+  }
+}

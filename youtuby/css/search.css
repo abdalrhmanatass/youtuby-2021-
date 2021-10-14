@@ -1,0 +1,21 @@
+#filter {
+  display: none;
+}
+.icon-filter {
+  cursor: pointer;
+}
+input:checked + span {
+  color: #bf40bf;
+}
+.card-icon time {
+  position: absolute;
+  left: 33px;
+  bottom: 10px;
+}
+.card-icon i {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: rgba(116, 116, 116, 0.822);
+  display: none;
+}
